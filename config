@@ -1,0 +1,11 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = ssh://git@git.softworldvietnam.com:1222/huuphudn2015/QLBangChuyen.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	puttykeyfile = D:\\Dowload\\putty\\gitKey.ppk
+	pushurl = ssh://git@git.softworldvietnam.com:1222/huuphudn2015/QLBangChuyen.git

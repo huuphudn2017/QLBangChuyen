@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/customborder"
+        android:layout_width="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="CHUYỀN:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtChuyen"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:text="QC:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtQC"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:text="TỔ TRƯỞNG"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtToTruong"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:text="LĐ HIỆN DIỆN:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtLDHienDien"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:text="LĐ VẮNG"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtLDVang"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtTime"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="MÃ HÀNG:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtMaHang"
+                    android:layout_width="0dp"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:text="MÀU:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/txtMau"
+                    android:layout_width="0dp"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:text="NGÀY:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtNgay"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:id="@+id/txtChiTiet"
+                    android:text="CHI TIẾT"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/btnHangDat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnTatMay"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Tắt máy"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btnCapNhat"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Cập Nhật"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btnDoiMaHang"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Đổi mã hàng"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btnMoTV"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Mở Tivi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <LinearLayout
+            android:background="@drawable/customborder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3">
+
+                <TextView
+                    android:text="TỔNG HÀNG ĐẠT:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/txtTongHangDat"
+                    android:text="0"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    />
+                <TextView
+                    android:text="TỔNG HÀNG KHÔNG ĐẠT:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/txtTongHangKhongDat"
+                    android:text="0"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    />
+                <TextView
+                    android:text="TỔNG HÀNG ĐÃ SỬA:"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/txtTongHangDaSua"
+                    android:text="0"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4">
+
+                <Button
+                    android:id="@+id/btnHangDat"
+                    android:background="@color/btnHangDat"
+                    android:layout_margin="@dimen/btnMargin"
+                    android:text="HÀNG ĐẠT"
+                    android:textSize="@dimen/btnFontSize"
+                    android:textColor="@color/btnTextColor"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/btnHangKhongDat"
+                    android:background="@color/btnHangKhongDat"
+                    android:layout_margin="@dimen/btnMargin"
+                    android:text="HÀNG KHÔNG ĐẠT"
+                    android:textSize="@dimen/btnFontSize"
+                    android:textColor="@color/btnTextColor"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <Button
+                    android:id="@+id/btnHangSua"
+                    android:background="@color/btnHangDaSua"
+                    android:layout_margin="@dimen/btnMargin"
+                    android:text="HÀNG SỬA"
+                    android:textSize="@dimen/btnFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="6">
+            
+            <LinearLayout
+                android:background="@drawable/customborder"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="MỤC TIÊU"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:textAlignment="center"
+                    android:text="TỔNG NĂNG SUẤT KIỂM"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"/>
+                <TextView
+                    android:text="ĐẠT"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:text="TỔNG LỖI"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/txtFontSize"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/txtMucTieu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/txtTongNangSuatKiem"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"/>
+                <TextView
+                    android:id="@+id/txtDat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/txtTongLoi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="4">
+
+            <Button
+                android:layout_margin="@dimen/btnMargin"
+                android:background="@color/btnHangKhongDat"
+                android:text="HỦY"
+                android:textSize="@dimen/btnFontSize"
+                android:id="@+id/btnHuy"
+                android:textColor="@color/btnTextColor"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:text="XÁC NHẬN"
+                android:background="@color/btnHangDat"
+                android:textSize="@dimen/btnFontSize"
+                android:layout_margin="@dimen/btnMargin"
+                android:id="@+id/btnXacNhan"
+                android:textColor="@color/btnTextColor"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
